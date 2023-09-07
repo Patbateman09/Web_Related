@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sports News Website</title>
+  <style>
+    .container {
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  color: #ff0000;
+}
+
+section#news-section {
+  flex: 3;
+  padding: 20px;
+}
+
+.news-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.news-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Football</a></li>
+        <li><a href="#">Basketball</a></li>
+        <li><a href="#">Tennis</a></li>
+        <li><a href="#">Cricket</a></li>
+      </ul>
+    </nav>
+    <section id="news-section">
+      <h1>Football News</h1>
+      <div class="news-list">
+        <div class="news-item">
+          <h2>News Title 1</h2>
+          <p>Enter the content</p>
+        </div>
+        <div class="news-item" contenteditable="true">
+          <h2>News Title 2</h2>
+          <p>Enter the content</p>
+        </div>
+        <!-- Add more news items here -->
+      </div>
+    </section>
+  </div>
+</body>
+</html>
