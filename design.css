@@ -1,0 +1,54 @@
+a {
+    text-decoration-color: black;
+}
+.url{
+    color: black;
+}
+.login ul li a{
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 12.5px;
+        color: rgb(247, 82, 18);
+        padding: 8px 15px;
+        margin-left:300px;
+}
+.nav ul{
+    list-style-type:none;
+    padding:2px;
+}
+.nav ul li{
+    display:block;
+    float:left;
+}
+.nav li ul{
+    display:none;
+}
+.nav ul li a{
+    display:block;
+    background-color:#007689;
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    width:100px;
+    border:2px solid red;
+}
+.nav ul li a:hover{
+    background-color:#007689;
+    color:white;
+}
+.nav li:hover ul{
+    display:block;
+    position:absolute;
+}
+.nav li:hover li{
+    float:none;
+}
+.nav li:hover a{
+    background-color:#94C548;
+    color:black;
+}
+.nav li:hover li a:hover{
+    background:black;
+    width:100px;
+}
